@@ -1,0 +1,139 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&family=Yrsa&display=swap');
+
+/*  font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+*/
+
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --gris:     #e1e1e1;
+    --blanco:   #ffffff;
+    --negro:    #000000; 
+}   
+
+
+
+body {
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+    
+
+/** Header**/
+.container {
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    height: 8rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.barra {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+/* @media (min-width: 768px) { 
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+}
+
+@media (min-width: 768px) {
+    .navegacion{
+        display: flex;
+        gap: 2rem;
+    }
+}*/
+
+.navegacion{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.informacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5rem;
+}
+
+/**Contacto  **/
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Estilos para secciones */
+
+
+h2 {
+    font-size: 25px;
+    border-bottom: 2px solid #ff6347;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para la experiencia laboral */
+.trabajo {
+    border-left: 2px solid #ff6347;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    display: grid;
+    
+}
